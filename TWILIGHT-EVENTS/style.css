@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    height: 100px;
+    width: 92%;
+    margin: auto;
+}
+svg {
+    height: 48px;
+    width: 48px;
+    color:  #cfb474;
+    padding-top: 5px;
+}
+a.navbar-brand {
+    display: flex;
+    width: 200px;
+    margin-right: 60px;
+}
+p.twilight-events {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #cfb474;
+}
+p.icon {
+    font-size: 20px;
+    color: #cfb474;
+}
+.navbar-brand p.icon {
+    color: #cfb474;
+    font-size: 26px;
+    margin-right: 15px;
+}
+.navbar-brand p.log-in {
+    color: #cfb474;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+ul.navbar-nav {
+    width: 70%;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+ul.navbar-nav li a {
+    color: #333333;
+    font-weight: 200;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.nav-item.dropdown {
+    position: relative;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    background-color: transparent!important;
+    top: 35px;
+    border:none;
+    left: -40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
