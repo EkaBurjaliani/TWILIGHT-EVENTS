@@ -1,41 +1,65 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color:#F3E4D8; 
+    height: 1500px;  
+    position: relative;
+}
+main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+header {
+    height: 90px;
+    width: 100%;
+    background-color:#720919;
+    position: fixed;
+    z-index: 1;
+    
 }
 nav {
-    height: 100px;
-    width: 92%;
+    height: 100%;
+    width: 80%;
+    background-blend-mode: hue;
     margin: auto;
+  
 }
-svg {
-    height: 48px;
-    width: 48px;
-    color:  #cfb474;
-    padding-top: 5px;
+
+nav a.nav-link {
+    margin-right: 100px;
+}
+p.logo {
+    font-size: 24px;
+    color: #d1ab90;
+    padding-top: 10px;
+    margin-left: 80px;
+   
 }
 a.navbar-brand {
     display: flex;
     width: 200px;
-    margin-right: 60px;
+    margin-top: 6px;
 }
 p.twilight-events {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding-top: 15px;
     padding-left: 10px;
-    color: #cfb474;
+    color: #d1ab90;
 }
 p.icon {
     font-size: 20px;
-    color: #cfb474;
+    color: #d1ab90;
+    margin-top: 3px;
 }
 .navbar-brand p.icon {
-    color: #cfb474;
+    color: #d1ab90;
     font-size: 26px;
     margin-right: 15px;
 }
 .navbar-brand p.log-in {
-    color: #cfb474;
+    color: #d1ab90;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding-top: 10px;
@@ -43,35 +67,71 @@ p.icon {
 }
 ul.navbar-nav {
     width: 70%;
-    margin-left: 250px;
+    margin-left: 200px;
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
+    padding-left: 90px;
 }
 ul.navbar-nav li a {
-    color: #333333;
+    color:  #d1ab90!important;
     font-weight: 200;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
+    
 }
 .nav-item.dropdown {
     position: relative;
+    margin-left: 0px;
 }
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
 .dropdown-menu {
-    background-color: transparent!important;
-    top: 35px;
-    border:none;
-    left: -40px;
+    background-color:#720919;
+    top: 40px;
+    border: none;
+    left: -45px;
     text-align: center;
 }
-
-
-
-
+.dropdown-menu a.dropdown-item {
+    color:#d1ab90!important;
+    font-size: 14px;
+}
+div.main-area {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;  
+    margin-top: 90px; 
+}
+div.main-photo {
+    height: 100%;
+    width: 60%;
+}
+div.main-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+div.main-text {
+    height: 100%;
+    width: 40%;
+}
+div.p-text {
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+p.creating {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    color: #8d6e58;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 90px;
+    letter-spacing: 3px;
+}
 
 
 
