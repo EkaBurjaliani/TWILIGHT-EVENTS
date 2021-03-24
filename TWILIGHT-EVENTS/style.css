@@ -16,6 +16,7 @@ header {
     background-color:#003231;
     position: fixed;
     z-index: 1;
+    box-shadow:  3px 3px 6px #494544;
     
 }
 nav {
@@ -23,7 +24,6 @@ nav {
     width: 82%;
     background-blend-mode: hue;
     margin: auto;
-  
 }
 
 nav a.nav-link {
@@ -108,6 +108,7 @@ div.main-area {
 div.main-photo {
     height: 100%;
     width: 60%;
+    box-shadow:  3px 3px 6px #494544;
 }
 div.main-photo img {
     height: 100%;
@@ -123,6 +124,7 @@ div.p-text {
     width: 400px;
     margin: auto;
 }
+
 p.creating {
     font-family: 'EB Garamond', serif;
     font-size: 64px;
@@ -131,7 +133,32 @@ p.creating {
     text-align: center;
     margin-top: 90px;
     letter-spacing: 3px;
+    text-shadow: 2px 2px 5px #494544;
+    
 }
+p.cursor {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    color: #11484e;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px #494544;
+}
+.p-text p:hover {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    color: #11484e;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 90px;
+    letter-spacing: 3px;
+    transition: 3s;
+    text-shadow: 3px 3px 5px #f0b7a5;
+    
+}
+
 div.central {
     border: 1px solid black;
     width: 90%;
@@ -143,11 +170,17 @@ div.central {
 div.collor {
     width: 20%;
     height: 100%;
-    background-color: #0E382A;
+    background-color: rgba(18, 56, 36, 0.1);
+    
 }
 div.post-cards-area {
     width: 80%;
     height: 100%;
+}
+.card.mb-3 {
+    height: 300px;
+    max-width: 1220px;
+
 }
 
 
