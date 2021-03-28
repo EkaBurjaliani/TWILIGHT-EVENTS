@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#fac6aa; 
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    height: 100%;
+    width: 100%;
+}
+header {
+    height: 90px;
+    width: 100%;
+    background-color:#11484e;
+    position: fixed;
+    z-index: 1;
+    box-shadow:  3px 3px 6px #494544;
+    
+}
+nav {
+    height: 100%;
+    width: 88%;
+    background-blend-mode: hue;
+    margin: auto;
+}
+
+nav a.nav-link {
+    margin-right: 100px;
+}
+p.logo {
+    font-size: 32px;
+    color: #F7D8C7;
+    padding-top: 10px;
+    margin-left: 80px;
+   
+}
+a.navbar-brand {
+    display: flex;
+    width: 200px;
+    margin-top: 6px;
+}
+p.twilight-events {
+    font-family: 'New Tegomin', serif;
+    font-size: 26px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #F7D8C7;
+}
+p.icon {
+    font-size: 24px;
+    color: #F7D8C7;
+    margin-top: 3px;
+}
+.navbar-brand p.icon {
+    color: #F7D8C7;
+    font-size: 24px;
+    margin-right: 15px;
+}
+.navbar-brand p.log-in {
+    color: #F7D8C7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+ul.navbar-nav {
+    width: 70%;
+    margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+ul.navbar-nav li a {
+    color:  #f8d0ba!important;
+    font-weight: 200;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    
+}
+.nav-item.dropdown {
+    position: relative;
+    margin-left: 0px;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    background-color:#11484e;
+    top: 40px;
+    border: none;
+    left: -55px;
+    text-align: center;
+}
+.dropdown-menu a.dropdown-item {
+    color:#f8d0ba!important;
+    font-size: 14px;
+}
+
+/* axali */
+div.banner-area {
+    height: 550px;
+    width: 950px;
+    margin: auto;
+    margin-top: 140px;
+    background-image: url(https://images.unsplash.com/photo-1610858631388-1f206ce8da67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    position: relative;
+}
+
+div.text {
+    height: 250px;
+    width: 450px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    color: #F7D8C7;
+}
+.footer1 {
+    height: 160px;
+    width: 100%;
+
+}
+div.copy {
+    height: 60px;
+    width: 100%;
+    background-color: #11484E;
+    margin-top: 100px;
+}
+.footer-photo1 {
+    height: 100px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1610858631388-1f206ce8da67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+
+}
+p.copcopy {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #F7D8C7;
+    padding-top: 20px;
+}
+.text p {
+    color: #F7D8C7;
+    text-align: center;
+}
+.contact-us {
+    font-family: 'New Tegomin', serif;
+    font-size: 26px;
+    margin-bottom: 30px
+
+}
+
+
+
+
+
+
+
+
+
+
+#bb6447
+#11484E
+
+
+
+
+https://images.unsplash.com/photo-1549064066-71a6b24f9b52?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80
+https://i1.pickpik.com/photos/219/617/119/book-book-pages-read-roses-preview.jpg
+
+https://images.unsplash.com/photo-1585151204136-4bd4244e1270?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80
+https://images.unsplash.com/photo-1602524564809-3e8449f10628?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
