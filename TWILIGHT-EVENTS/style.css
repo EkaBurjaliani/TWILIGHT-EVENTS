@@ -87,6 +87,7 @@ ul.navbar-nav li a {
 }
 .dropdown:hover > .dropdown-menu {
     display: block;
+    
 }
 .dropdown-menu {
     background-color:#11484e;
@@ -98,6 +99,10 @@ ul.navbar-nav li a {
 .dropdown-menu a.dropdown-item {
     color:#f8d0ba!important;
     font-size: 14px;
+    
+}
+..dropdown-menu :active a {
+    background-color: seagreen;
 }
 div.main-area {
     height: 600px;
@@ -410,7 +415,7 @@ h7 {
     justify-items: right;
     width: 110px;
     font-family: 'New Tegomin', serif;
-    padding: 0px;
+    padding: 0px!important;
 }
 
 input.form-control {
