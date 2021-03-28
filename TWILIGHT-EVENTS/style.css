@@ -1,9 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color:#f5bfa1; 
+    background-color:#fac6aa; 
     height: 3500px;  
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 main {
     height: 100%;
@@ -30,7 +32,7 @@ nav a.nav-link {
     margin-right: 100px;
 }
 p.logo {
-    font-size: 24px;
+    font-size: 32px;
     color: #f8d0ba;
     padding-top: 10px;
     margin-left: 80px;
@@ -43,7 +45,7 @@ a.navbar-brand {
 }
 p.twilight-events {
     font-family: 'New Tegomin', serif;
-    font-size: 20px;
+    font-size: 26px;
     padding-top: 15px;
     padding-left: 10px;
     color: #f8d0ba;
@@ -133,7 +135,7 @@ p.creating {
     text-align: center;
     margin-top: 90px;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 5px #494544;
+    /* text-shadow: 1px 1px 3px #494544; */
     
 }
 p.cursor {
@@ -144,7 +146,7 @@ p.cursor {
     text-align: center;
     margin-top: 40px;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 5px #494544;
+    /*   */
 }
 .p-text p:hover {
     font-family: 'EB Garamond', serif;
@@ -206,6 +208,7 @@ div.collor {
     width: 20%;
     height: 100%;
     background-color: #11484e; 
+    position: relative;
      
 }
 div.media {
@@ -215,6 +218,7 @@ div.media {
     flex-direction: column;
     justify-content: right;
     border: 1px solid black;
+    
     
 }
 a.right {
@@ -275,6 +279,137 @@ h4 {
     text-align: center;
     padding-top: 5px;
     color: #11484e;
+}
+div.card-body {
+    background-color: #f7d8c7;
+
+}
+footer {
+    height: 450px;
+    width: 100%;
+    background-color: #11484e;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+div.footer-big {
+    height: 300px;
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+}
+div.left {
+    height: 100%;
+    width: 50%;
+}
+div.phone-number {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 75px 0px 75px;
+    justify-content: space-around;
+    
+}
+p.number{
+    font-family: 'New Tegomin', serif;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 55px;
+    color: #FAC6AA;
+    margin-left: 50px;
+}
+.btn.btn-primary {
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    color: #FAC6AA;
+    font-family: 'New Tegomin', serif;
+    font-size: 22px;
+    border-color: transparent;
+    margin-left: 50px;
+}
+.socmedia {
+    height: 50%;
+    width: 100%;
+    padding: 0px 50px 0px 30px;
+}
+.socmedia ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.socmedia ul li {
+    list-style: none;
+}
+.socmedia ul li a {
+    font-size: 30px;
+    color: #FAC6AA;
+}
+
+div.right {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.footer-photo {
+    height: 150px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1610858631388-1f206ce8da67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+}
+h7 {
+    font-family: 'New Tegomin', serif;
+    font-size: 24px;
+    color: #FAC6AA;
+    padding-left: 60px;
+    
+}
+.write {
+    margin-top: 40px!important;
+    margin-bottom: 20px;
+}
+.input-group.input-group-sm.mb-3 {
+    width: 400px;
+    margin-left: 60px;
+}
+.input-group.mb-3 {
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.input-group-prepend-1 {
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+#input-last {
+    height: 100px;
+}
+.input-group-text {
+    background-color: transparent;
+    border-color: transparent;
+    color: #FAC6AA;
+    align-items:flex-start;
+    justify-items: right;
+    width: 110px;
+    font-family: 'New Tegomin', serif;
+    padding: 0px;
+}
+
+input.form-control {
+    border: 2px solid #FAC6AA;
+    background-color: #11484e;
+}
+i.fas.fa-phone {
+    margin-right: 10px;
 }
 
 
